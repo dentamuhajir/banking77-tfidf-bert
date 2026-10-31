@@ -1,0 +1,8 @@
+{
+  "run_id": "2026-10-31_111441_environment_seed42",
+  "purpose": "environment",
+  "seed": 42,
+  "environment_file": "runs/2026-10-31_111441_environment_seed42/environment.json",
+  "requirements_lock": "runs/2026-10-31_111441_environment_seed42/requirements.lock.txt",
+  "core_requirements_lock": "requirements/2026-10-31_111441_environment_seed42_core.lock.txt"
+}

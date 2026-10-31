@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-10-31_111441_environment_seed42",
+  "purpose": "environment",
+  "created_at_local": "2026-10-31T11:17:06.738297+00:00",
+  "created_at_utc": "2026-10-31T11:17:06.738317+00:00",
+  "project_dir": "/content/drive/MyDrive/Thesis_Banking77",
+  "seed": 42,
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "cpu_count_logical": 2,
+  "ram": "total        used        free      shared  buff/cache   available\nMem:            12Gi       1.7Gi       5.6Gi       5.8Mi       5.6Gi        10Gi\nSwap:             0B          0B          0B",
+  "torch": "2.11.0+cu130",
+  "torch_cuda_build": "13.0",
+  "cudnn_version": 92700,
+  "packages": {
+    "transformers": "5.21.0",
+    "datasets": "4.8.5",
+    "accelerate": "1.15.0",
+    "scikit-learn": "1.6.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "evaluate": null,
+    "sentencepiece": "0.2.2"
+  },
+  "gpu": {
+    "available": true,
+    "name": "Tesla T4",
+    "memory_total_gib": 14.56,
+    "device_count": 1
+  },
+  "nvidia_smi": "Sat Oct 31 11:17:07 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n| N/A   39C    P8             11W /   70W |       3MiB /  15360MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+"
+}
